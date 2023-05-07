@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Diploma</string>
+    <string name="breakfast_title">Завтрак</string>
+    <string name="lunch_title">Обед</string>
+    <string name="dinner_title">Ужин</string>
+    <string name="gram_textView_end">г.</string>
+    <string name="calories_textView_end">кКал на 100г</string>
+    <string name="protein_textView_st">Белки:</string>
+    <string name="fat_textView_st">Жиры:</string>
+    <string name="carbohydrate_textView_st">Углеводы:</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".RecipeActivity"
+    android:background="#5762f0">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Гренки острые"
+        android:padding="5dp"
+        android:textSize="25sp"
+        android:background="#4c29ec"
+        android:textColor="@color/white">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:text="Ингридиенты:"
+        android:textColor="@color/white">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="1.хлеб пшеничный 850 грамм\n2. сыр твердый 400 грамм\n3.желток куриный 10 грамм\n3.масло сливочное 100 грамм\n4.томатная паста 80 грамм\n5. перец молотый красный 1 грамм" >
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:text="Способ приготовления:">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:justificationMode="inter_word"
+        android:text="Пшеничный хлеб нарезают ломтиками прямоугольной формы (4х6 см) толщиной 0,5 см и слегка обжаривают на масле (12% от общей массы масла) с обеих сторон. Тертый сыр смешивают с томатной пастой, яичными желтками, маслом и молотым красным перцем. Полученной массой густо намазывают ломтики хлеба, укладывают их на кондитерский лист и запекают в жарочном шкафу.">
+    </TextView>
+</LinearLayout>
