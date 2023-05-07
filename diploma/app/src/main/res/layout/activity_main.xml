@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/dishScrollViewId"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHeight_percent="0.95">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/breakfastTitleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/breakfast_title"
+                android:background="#4c29ec"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                />
+
+            <com.example.diploma.InnerListView
+                android:id="@+id/breakfastDishListView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#5762f0"
+                android:textColor="@color/white">
+            </com.example.diploma.InnerListView>
+
+            <TextView
+                android:id="@+id/lunchTitleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/lunch_title"
+                android:background="#4c29ec"
+                android:textColor="@color/white"
+                android:textSize="25sp"/>
+
+            <com.example.diploma.InnerListView
+                android:id="@+id/lunchDishListView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#5762f0">
+            </com.example.diploma.InnerListView>
+
+            <TextView
+                android:id="@+id/dinnerTitleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/dinner_title"
+                android:background="#4c29ec"
+                android:textColor="@color/white"
+                android:textSize="25sp"/>
+
+            <com.example.diploma.InnerListView
+                android:id="@+id/dinnerDishListView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#5762f0"
+                android:textColor="@color/white">
+            </com.example.diploma.InnerListView>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintHeight_percent="0.05"
+        app:layout_constraintTop_toBottomOf="@+id/dishScrollViewId">
+
+        <Button
+            android:id="@+id/day1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#6298f1"
+            android:background="@color/white"
+            android:text="1" />
+
+        <Button
+            android:id = "@+id/day2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="2"
+            android:background="@color/white"
+            android:backgroundTint="#6298f1">
+        </Button>
+
+        <Button
+            android:id = "@+id/day3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="3"
+            android:background="@color/white"
+            android:backgroundTint="#6298f1">
+        </Button>
+
+        <Button
+            android:id = "@+id/day4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="4"
+            android:background="@color/white"
+            android:backgroundTint="#6298f1">
+        </Button>
+
+        <Button
+            android:id = "@+id/day5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="5"
+            android:background="@color/white"
+            android:backgroundTint="#6298f1">
+        </Button>
+
+        <Button
+            android:id = "@+id/day6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="6"
+            android:background="@color/white"
+            android:backgroundTint="#6298f1">
+        </Button>
+
+        <Button
+            android:id = "@+id/day7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="7"
+            android:background="@color/white"
+            android:backgroundTint="#6298f1">
+        </Button>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
